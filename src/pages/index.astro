@@ -1,0 +1,42 @@
+---
+import ChargeSection from '../components/ChargeSection.astro'
+import HeroSection from '../components/HeroSection.astro';
+import LandingHeader from '../components/LandingHeader.astro';
+import ExplorerSection from '../components/ExplorerSection.astro';
+import FocusSection from  '../components/FocusSection.astro';
+import FiestaSection from '../components/FiestaSection.astro';
+import KugaSection from '../components/KugaSection.astro';
+import PumaSection from '../components/PumaSection.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Ford - La revolución comienza aquí.">
+		<LandingHeader />
+
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll">
+		<div class="snap-center">
+			<HeroSection />
+		</div>
+		<div class="snap-center">
+			<ChargeSection />
+		</div>
+		<div class="snap-center">
+			<ExplorerSection />
+		</div>
+		<div class="snap-center">
+			<PumaSection />
+		</div>
+		<div class="snap-center">
+			<KugaSection />
+		</div>
+		<div class="snap-center">
+			<FocusSection />
+		</div>
+		<div class="snap-center">
+			<FiestaSection />
+		</div>
+
+	</main>
+</Layout>
+</style>
+
